@@ -4,11 +4,11 @@ class Database
     // Note: specify your own database credentials
     private $host = "localhost";
 
-    private $db_name = "db_movies";
+    private $db_name = "db_movies2";
 
     private $username = "root";
 
-    private $password = "root";
+    private $password = "";
 
     private static $instance = null;
     public $conn;
